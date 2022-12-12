@@ -1,0 +1,164 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "graph",
+					"jsonFile" : "directory-graph-Debug-f4b9be189f468aa128a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "graph",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "linked_list",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-linked_list-Debug-d033b3176fec02592f63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "linked_list"
+				},
+				{
+					"build" : "linked_list/doubly_linked_list",
+					"jsonFile" : "directory-linked_list.doubly_linked_list-Debug-e45ef652eea947a810e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "linked_list/doubly_linked_list",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "linked_list/singly_linked_list",
+					"jsonFile" : "directory-linked_list.singly_linked_list-Debug-b051d78be69f04fff5e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "linked_list/singly_linked_list",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "data_structure_cplusplus"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Graph",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "linked_list",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : ".::@8d13818089ea04265dc6",
+					"jsonFile" : "target-.-Debug-4f7694c02dd27c6839b0.json",
+					"name" : ".",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Graph::@24f0212b3bb5eb7e3fe6",
+					"jsonFile" : "target-Graph-Debug-50fa19161794bc8035a0.json",
+					"name" : "Graph",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "linked_list::@33d17554eb23d16f3bc5",
+					"jsonFile" : "target-linked_list-Debug-689bdfc8441d29e2e669.json",
+					"name" : "linked_list",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/30205/Desktop/Clion/data_structure_cplusplus/cmake-build-debug",
+		"source" : "C:/Users/30205/Desktop/Clion/data_structure_cplusplus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
