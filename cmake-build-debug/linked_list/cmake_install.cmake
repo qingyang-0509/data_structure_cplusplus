@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Tools/Qt/Qt6.3/Tools/mingw1120_64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -45,5 +45,15 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/30205/Desktop/Clion/data_structure_cplusplus/cmake-build-debug/linked_list/singly_linked_list/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30205/Desktop/Clion/data_structure_cplusplus/cmake-build-debug/linked_list/circular_singly_linked_list/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30205/Desktop/Clion/data_structure_cplusplus/cmake-build-debug/linked_list/circular_doubly_linked_list/cmake_install.cmake")
 endif()
 

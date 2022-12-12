@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/30205/Desktop/Clion/data_structure_cplusplus/linked_list/singly_linked_list
+# Install script for directory: C:/Users/30205/Desktop/Clion/data_structure_cplusplus/stack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

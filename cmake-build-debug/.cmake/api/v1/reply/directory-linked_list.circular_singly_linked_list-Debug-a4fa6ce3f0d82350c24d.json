@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "linked_list/circular_singly_linked_list",
+		"source" : "linked_list/circular_singly_linked_list"
+	}
+}

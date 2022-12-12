@@ -1,0 +1,294 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "linked_list",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-linked_list-Debug-d033b3176fec02592f63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "linked_list"
+				},
+				{
+					"build" : "linked_list/doubly_linked_list",
+					"jsonFile" : "directory-linked_list.doubly_linked_list-Debug-e45ef652eea947a810e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "linked_list/doubly_linked_list",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "linked_list/singly_linked_list",
+					"jsonFile" : "directory-linked_list.singly_linked_list-Debug-b051d78be69f04fff5e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "linked_list/singly_linked_list",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "linked_list/circular_singly_linked_list",
+					"jsonFile" : "directory-linked_list.circular_singly_linked_list-Debug-a4fa6ce3f0d82350c24d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "linked_list/circular_singly_linked_list",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "linked_list/circular_doubly_linked_list",
+					"jsonFile" : "directory-linked_list.circular_doubly_linked_list-Debug-03e29430e3fea90b344e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "linked_list/circular_doubly_linked_list",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "stack",
+					"jsonFile" : "directory-stack-Debug-c50bba7e2e65c9bfb5d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "stack",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "graph",
+					"jsonFile" : "directory-graph-Debug-f4b9be189f468aa128a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "graph",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "data_structure_cplusplus"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "linked_list",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "doubly_linked_list",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "singly_linked_list",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "circular_singly_linked_list",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "circular_doubly_linked_list",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "stack",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "Graph",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "Graph::@24f0212b3bb5eb7e3fe6",
+					"jsonFile" : "target-Graph-Debug-50fa19161794bc8035a0.json",
+					"name" : "Graph",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "circular_doubly_linked_list::@46443b36404f123bdf43",
+					"jsonFile" : "target-circular_doubly_linked_list-Debug-2f324c6d8098eb39a92d.json",
+					"name" : "circular_doubly_linked_list",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "circular_singly_linked_list::@7556ff2a22306cb092c9",
+					"jsonFile" : "target-circular_singly_linked_list-Debug-9a23a462a0ddfd7d8bc0.json",
+					"name" : "circular_singly_linked_list",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doubly_linked_list::@33d17554eb23d16f3bc5",
+					"jsonFile" : "target-doubly_linked_list-Debug-7e078b8ea52117992ccb.json",
+					"name" : "doubly_linked_list",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "singly_linked_list::@8d13818089ea04265dc6",
+					"jsonFile" : "target-singly_linked_list-Debug-ab520ab6d336013c1fd0.json",
+					"name" : "singly_linked_list",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "stack::@b5371760465ddb38638a",
+					"jsonFile" : "target-stack-Debug-c08db7f6546f1affef83.json",
+					"name" : "stack",
+					"projectIndex" : 6
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/30205/Desktop/Clion/data_structure_cplusplus/cmake-build-debug",
+		"source" : "C:/Users/30205/Desktop/Clion/data_structure_cplusplus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,8 +1,4 @@
-"D:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\30205\Desktop\Clion\data_structure_cplusplus -B C:\Users\30205\Desktop\Clion\data_structure_cplusplus\cmake-build-debug
-CMake Error at linked_list/doubly_linked_list/CMakeLists.txt:8 (target_sources):
-  Cannot specify sources for target "doubly_linked_list.h" which is not built
-  by this project.
-
-
--- Configuring incomplete, errors occurred!
-See also "C:/Users/30205/Desktop/Clion/data_structure_cplusplus/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+"D:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\30205\Desktop\Clion\data_structure_cplusplus -B C:\Users\30205\Desktop\Clion\data_structure_cplusplus\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/30205/Desktop/Clion/data_structure_cplusplus/cmake-build-debug

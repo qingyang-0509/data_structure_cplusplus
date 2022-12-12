@@ -50,7 +50,6 @@ int doubly_linked_list::delete_from_head() {
 		}
 		return element;
 	}
-
 }
 int doubly_linked_list::delete_from_tail() {
 	if (!is_empty()) {

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22)
+
+project(circular_doubly_linked_list)
+
+add_library(circular_doubly_linked_list STATIC circular_doubly_linked_list.cpp circular_doubly_linked_list.h)

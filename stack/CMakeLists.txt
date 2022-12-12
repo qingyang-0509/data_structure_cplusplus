@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.22)
+
+PROJECT(stack)
+
+SET(CMAKE_CXX_STANDARD 11)
+
+ADD_EXECUTABLE(stack main.cpp stack.cpp stack.h)
